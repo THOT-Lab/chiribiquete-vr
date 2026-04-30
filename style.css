@@ -1,0 +1,204 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #000;
+  --ink: #fff;
+  --ink-soft: #c2c2bb;
+  --accent: #b6e34a;
+  --gutter: 28px;
+}
+
+html { background: var(--bg); }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, sans-serif;
+  font-size: 14.5px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
+
+.flyer {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 4% 40px;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1186 / 426;
+  background: #111;
+  margin-bottom: 28px;
+  overflow: hidden;
+}
+
+.hero__bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  bottom: clamp(18%, 22%, 26%);
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.18em;
+  white-space: nowrap;
+  pointer-events: none;
+  font-size: clamp(28px, 6vw, 64px);
+}
+
+.title__name {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
+  font-size: 1em;
+  line-height: 1;
+  color: var(--ink);
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.45);
+}
+
+.title__vr {
+  display: inline-block;
+  font-family: 'Fraunces', Georgia, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.45em;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  position: relative;
+  top: 0.08em;
+  background-image:
+    repeating-linear-gradient(45deg,
+      var(--accent) 0, var(--accent) 3px,
+      transparent 3px, transparent 7px),
+    repeating-linear-gradient(-45deg,
+      var(--accent) 0, var(--accent) 3px,
+      transparent 3px, transparent 7px);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  filter:
+    drop-shadow(0 0 14px rgba(0, 0, 0, 0.55))
+    drop-shadow(0 1px 2px rgba(0, 0, 0, 0.7));
+}
+
+/* ---------- Rows: text + image side by side ---------- */
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: var(--gutter);
+  align-items: center;
+  padding: 18px 0;
+}
+
+.row--reverse .row__text { order: 2; }
+.row--reverse .row__media { order: 1; }
+
+.row--text {
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+}
+
+.row__text {
+  color: var(--ink-soft);
+  font-size: 14.5px;
+}
+
+.row__text p + p { margin-top: 10px; }
+
+.row__media img { width: 100%; }
+
+.row__media figcaption {
+  margin-top: 6px;
+  font-size: 10.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  opacity: 0.75;
+}
+
+.kicker {
+  display: block;
+  font-family: 'Fraunces', Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 0.005em;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+/* ---------- Formats list ---------- */
+.formats {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 16px;
+}
+
+.formats li {
+  position: relative;
+  padding-left: 14px;
+  color: var(--ink-soft);
+  font-size: 13.5px;
+  line-height: 1.4;
+}
+
+.formats li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 5px;
+  height: 5px;
+  background: var(--accent);
+}
+
+/* ---------- Signature ---------- */
+.signature {
+  margin-top: 28px;
+  text-align: right;
+  font-size: 12.5px;
+  letter-spacing: 0.02em;
+}
+
+.signature a {
+  color: var(--accent);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.signature a:hover { border-color: var(--accent); }
+
+/* ---------- Mobile ---------- */
+@media (max-width: 640px) {
+  .row,
+  .row--text {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 14px 0;
+  }
+  .row--reverse .row__text { order: 1; }
+  .row--reverse .row__media { order: 2; }
+  .formats { grid-template-columns: 1fr; }
+}
