@@ -13,14 +13,16 @@ chiribiquete-vr/
 ├── .nojekyll
 └── assets/
     ├── hero.jpg            # Vista aérea de los tepuyes (imagen principal)
-    ├── vr-tour.jpg         # Captura del recorrido VR — Abrigo de los jaguares
-    ├── pictograms.jpg      # Pinturas rupestres / pictogramas
-    └── vr-immersion.jpg    # Inmersión VR — Abrigo Agreste 1
+    ├── expo-lima-20s.mp4   # Extracto video web de la instalación
+    ├── vr-test-nv-visuales.mp4
+    ├── IMG_0724.JPG
+    ├── IMG_0728_NV_VISUALES.JPG
+    └── CHIRIBIQUETTE_Vector-Logo.pdf
 ```
 
-## Imágenes a añadir
+## Medios
 
-Coloca los cuatro archivos en `/assets/` con los nombres exactos indicados arriba.
+Los archivos originales pesados se mantienen fuera de Git cuando no son necesarios para la publicación. El sitio usa versiones web optimizadas para GitHub Pages.
 
 ## Despliegue en GitHub Pages
 
