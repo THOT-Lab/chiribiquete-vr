@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /chiribiquete-vr/
+
+Sitemap: https://thot-lab.github.io/chiribiquete-vr/sitemap.xml

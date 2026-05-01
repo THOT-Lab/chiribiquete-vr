@@ -1,0 +1,25 @@
+{
+  "name": "Chiribiquete VR",
+  "short_name": "Chiribiquete VR",
+  "description": "Viaje inmersivo al corazón de la Amazonía colombiana.",
+  "start_url": "/chiribiquete-vr/",
+  "scope": "/chiribiquete-vr/",
+  "display": "standalone",
+  "background_color": "#050604",
+  "theme_color": "#050604",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/chiribiquete-vr/assets/meta/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/chiribiquete-vr/assets/meta/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
