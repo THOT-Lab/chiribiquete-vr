@@ -20,6 +20,7 @@ TRANSLATIONS = [
      "Chiribiquete VR — an immersive experience created by NV Visuales and THOT. Exhibition at the Alianza Francesa de Bogotá, Chicó branch, from 19 November 2026.",
      "Chiribiquete VR — une expérience immersive créée par NV Visuales et THOT. Exposition à l’Alliance Française de Bogotá, site de Chicó, à partir du 19 novembre 2026."),
     ('content="es_CO"', 'content="en_GB"', 'content="fr_FR"'),
+    ("assets/meta/og-image-es.jpg", "assets/meta/og-image-en.jpg", "assets/meta/og-image-fr.jpg"),
     ("Chiribiquete VR sobre un paisaje aéreo de la Amazonía colombiana",
      "Chiribiquete VR over an aerial view of the Colombian Amazon",
      "Chiribiquete VR sur un paysage aérien de l’Amazonie colombienne"),
