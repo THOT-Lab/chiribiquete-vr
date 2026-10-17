@@ -1,51 +1,48 @@
 # Chiribiquete VR
 
-Sitio de presentación de **Chiribiquete VR**, una experiencia inmersiva creada por NV Visuales.
+Sitio de presentación de **Chiribiquete VR**, una experiencia inmersiva creada por NV Visuales y THOT.
 
-Sitio publicado: https://thot-lab.github.io/chiribiquete-vr/
+Sitio publicado: https://thot-lab.github.io/chiribiquete-vr/ (ES) · [en.html](https://thot-lab.github.io/chiribiquete-vr/en.html) (EN) · [fr.html](https://thot-lab.github.io/chiribiquete-vr/fr.html) (FR)
 
 ## Estructura
 
 ```
-chiribiquete-vr/
-├── index.html
+├── index.html        # Versión en español (referencia)
+├── en.html           # Generado por tools/i18n.py — no editar a mano
+├── fr.html           # Generado por tools/i18n.py — no editar a mano
 ├── style.css
-├── .nojekyll
+├── script.js
+├── tools/i18n.py     # Traducciones EN/FR y generación de en.html / fr.html
 └── assets/
-    ├── hero.jpg            # Vista aérea de los tepuyes (imagen principal)
-    ├── expo-lima-20s.mp4   # Extracto video web de la instalación
-    ├── vr-test-nv-visuales.mp4
-    ├── IMG_0724.JPG
-    ├── IMG_0728_NV_VISUALES.JPG
-    └── CHIRIBIQUETTE_Vector-Logo.pdf
+    ├── hero-tepuy*.jpg      # Imagen de portada
+    ├── pictos/              # Pictogramas rupestres (máscaras PNG)
+    ├── partners/            # Logos de socios (blancos)
+    ├── zurich-panel-*.jpg   # Muros de la instalación del Museo Rietberg
+    └── meta/                # Favicon (jaguar), iconos e imagen para redes
 ```
+
+## Idiomas
+
+`index.html` (español) es la versión de referencia. Después de modificarla:
+
+1. actualizar la traducción correspondiente en `tools/i18n.py` (tuplas español / inglés / francés);
+2. ejecutar `python3 tools/i18n.py`, que regenera `en.html` y `fr.html`.
+
+El script se detiene si un texto español ya no se encuentra en `index.html`.
 
 ## Medios
 
-Los archivos originales pesados se mantienen fuera de Git cuando no son necesarios para la publicación. El sitio usa versiones web optimizadas para GitHub Pages.
+Los archivos originales pesados (RAW, vídeo completo) se mantienen fuera de Git (`.gitignore`). El sitio usa versiones web optimizadas.
 
-## Despliegue en GitHub Pages
+## Despliegue
 
-1. Crea un repositorio nuevo en GitHub (por ejemplo, `chiribiquete-vr`).
-2. Sube los archivos al repositorio:
-   ```bash
-   cd chiribiquete-vr
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin git@github.com:THOT-Lab/chiribiquete-vr.git
-   git push -u origin main
-   ```
-3. En GitHub: **Settings → Pages → Source: Deploy from a branch → main / (root) → Save**.
-4. Espera ~1 minuto. El sitio estará en `https://thot-lab.github.io/chiribiquete-vr/`.
+GitHub Pages: **Settings → Pages → Deploy from a branch → main / (root)**. Cada push a `main` actualiza el sitio en ~1 minuto.
 
 ## Desarrollo local
 
-No requiere build. Abre `index.html` directamente o sirve la carpeta:
+No requiere build:
 
 ```bash
-cd chiribiquete-vr
 python3 -m http.server 8000
 # http://localhost:8000
 ```
