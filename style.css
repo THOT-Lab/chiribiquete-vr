@@ -714,6 +714,7 @@ strong {
 .partners__row .lg-ufalp  { height: 35px; }
 .partners__row .lg-medio  { height: 22px; }
 .partners__row .lg-afd    { height: 30px; }
+.partners__row .lg-cdm    { height: 26px; }
 
 /* Los tres muros de Zúrich, uno tras otro */
 .panels {
@@ -1119,7 +1120,7 @@ strong {
 .creator__links {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 22px;
+  gap: 8px 12px;
   margin-top: 22px !important;
   font-family: var(--mono);
   font-size: 13px;
@@ -1129,6 +1130,10 @@ strong {
 .creator__links a {
   color: var(--acid);
   border-bottom: 1px solid rgba(234, 248, 12, 0.35);
+}
+
+.creator__sep {
+  color: var(--muted);
 }
 
 .creator--solo {
