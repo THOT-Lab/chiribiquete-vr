@@ -1,7 +1,7 @@
 {
   "name": "Chiribiquete VR",
   "short_name": "Chiribiquete VR",
-  "description": "Viaje inmersivo al corazón de la Amazonía colombiana.",
+  "description": "Viaje inmersivo al corazón de la Amazonia colombiana.",
   "start_url": "/chiribiquete-vr/",
   "scope": "/chiribiquete-vr/",
   "display": "standalone",

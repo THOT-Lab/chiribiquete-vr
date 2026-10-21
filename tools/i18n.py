@@ -21,10 +21,10 @@ TRANSLATIONS = [
      "Chiribiquete VR — une expérience immersive créée par NV Visuales et THOT. Exposition à l’Alliance Française de Bogotá, site de Chicó, à partir du 19 novembre 2026."),
     ('content="es_CO"', 'content="en_GB"', 'content="fr_FR"'),
     ("assets/meta/og-image-es.jpg", "assets/meta/og-image-en.jpg", "assets/meta/og-image-fr.jpg"),
-    ("Chiribiquete VR sobre un paisaje aéreo de la Amazonía colombiana",
+    ("Chiribiquete VR sobre un paisaje aéreo de la Amazonia colombiana",
      "Chiribiquete VR over an aerial view of the Colombian Amazon",
      "Chiribiquete VR sur un paysage aérien de l’Amazonie colombienne"),
-    ("Viaje inmersivo al corazón de la Amazonía colombiana",
+    ("Viaje inmersivo al corazón de la Amazonia colombiana",
      "An immersive journey into the heart of the Colombian Amazon",
      "Voyage immersif au cœur de l’Amazonie colombienne"),
 
@@ -41,7 +41,7 @@ TRANSLATIONS = [
     ("Tepuy de Chiribiquete emergiendo de la selva amazónica",
      "Chiribiquete tepui rising from the Amazon rainforest",
      "Tepuy de Chiribiquete émergeant de la forêt amazonienne"),
-    ("Huellas ancestrales de la Amazonía", "Ancestral traces of the Amazon", "Empreintes ancestrales d’Amazonie"),
+    ("Huellas ancestrales de la Amazonia", "Ancestral traces of the Amazon", "Empreintes ancestrales d’Amazonie"),
     ('<i aria-hidden="true"></i>Actualidad</span>', '<i aria-hidden="true"></i>News</span>', '<i aria-hidden="true"></i>Actualités</span>'),
     ("Alianza Francesa · Sede Chicó", "Alianza Francesa · Chicó", "Alliance Française · Chicó"),
     ("Inauguración 19.11.2026", "Opening 19.11.2026", "Inauguration 19.11.2026"),
@@ -80,10 +80,10 @@ TRANSLATIONS = [
      "Chiribiquete VR arrive à Bogotá dans le cadre de Novembre Numérique, le festival des cultures numériques du réseau des Alliances Françaises, qui célèbre les nouvelles formes interactives de l’art. Un événement de l’Alliance Française de Bogotá, qui accueille dans la galerie de son site de Chicó une exposition entre art, science et technologie&nbsp;: réalité virtuelle, photographie et muséographie numérique pour pénétrer dans les tepuys, la forêt et les peintures rupestres de Chiribiquete. L’inauguration sera accompagnée d’une table ronde de haut niveau dans l’auditorium de l’Alliance Française."),
     ("Socios &amp; apoyos", "Partners &amp; supporters", "Partenaires &amp; soutiens"),
 
-    ("El legado de la Amazonía<span>Arte y arqueología</span>",
+    ("El legado de la Amazonia<span>Arte y arqueología</span>",
      "Amazonian Legacies<span>Art and archaeology</span>",
      "L’héritage de l’Amazonie<span>Art et archéologie</span>"),
-    ("El Museo Rietberg de Zúrich dedica una gran exposición al arte y la arqueología de la Amazonía, habitada desde hace al menos 13&nbsp;000 años: estructuras monumentales, amplias redes de intercambio, cerámicas ricamente decoradas —urnas pintadas de Brasil, botellas de cacao de Ecuador— y espectaculares pinturas rupestres. Un recorrido en el que naturaleza y cultura no se conciben por separado, una visión del mundo que sigue viva en muchas comunidades indígenas.",
+    ("El Museo Rietberg de Zúrich dedica una gran exposición al arte y la arqueología de la Amazonia, habitada desde hace al menos 13&nbsp;000 años: estructuras monumentales, amplias redes de intercambio, cerámicas ricamente decoradas —urnas pintadas de Brasil, botellas de cacao de Ecuador— y espectaculares pinturas rupestres. Un recorrido en el que naturaleza y cultura no se conciben por separado, una visión del mundo que sigue viva en muchas comunidades indígenas.",
      "The Museum Rietberg in Zurich is devoting a major exhibition to the art and archaeology of the Amazon, a region inhabited for at least 13,000 years: monumental structures, far-reaching exchange networks, richly decorated ceramics — painted urns from Brazil, cacao bottles from Ecuador — and spectacular rock paintings. A journey in which nature and culture are not seen as separate, a worldview that remains alive in many Indigenous communities.",
      "Le Musée Rietberg de Zurich consacre une grande exposition à l’art et à l’archéologie de l’Amazonie, habitée depuis au moins 13&nbsp;000 ans&nbsp;: structures monumentales, vastes réseaux d’échange, céramiques richement décorées — urnes peintes du Brésil, bouteilles de cacao d’Équateur — et spectaculaires peintures rupestres. Un parcours où nature et culture ne sont pas pensées séparément, une vision du monde toujours vivante dans de nombreuses communautés autochtones."),
     ("En el corazón de la muestra, NV Visuales presenta una instalación inmersiva dedicada a Chiribiquete, sitio del Patrimonio Mundial de la UNESCO apodado la «Capilla Sixtina de la prehistoria»: 32 metros de pantallas dispuestas en un triángulo monumental, donde las pinturas rupestres de la selva colombiana cobran vida entre proyecciones, paisajes sonoros y figuras emblemáticas como jaguares y pirañas.",
@@ -112,7 +112,7 @@ TRANSLATIONS = [
     ("Un puñado de científicos comenzó sus investigaciones hace unos cuarenta años, pero los secretos susurrados al pie de los tepuyes permanecen diligentemente guardados.",
      "A handful of scientists began their research some forty years ago, but the secrets whispered at the foot of the tepuis remain carefully guarded.",
      "Une poignée de scientifiques a entamé ses recherches il y a une quarantaine d’années, mais les secrets murmurés au pied des tepuys restent jalousement gardés."),
-    ("Embárquese en una misión científica a la zona prohibida…", "Embark on a scientific mission to the forbidden zone…", "Embarquez pour une mission scientifique en zone interdite…"),
+    ("Embárquese en una misión científica en el corazón de la Amazonia", "Embark on a scientific mission into the heart of the Amazon", "Embarquez pour une mission scientifique au cœur de l’Amazonie"),
 
     ("Objetivos culturales de la exposición", "Cultural objectives of the exhibition", "Objectifs culturels de l’exposition"),
     ("Como en el caso de las famosas cuevas francesas, prohibir el acceso a un sitio de gran valor patrimonial y cultural sugiere la realización de una réplica, para que las riquezas y los conocimientos adquiridos puedan ser compartidos. La exposición propuesta pretende ser la primera réplica inmersiva de Chiribiquete, en línea con la política colombiana de «conocer sin ir».",
@@ -159,7 +159,7 @@ TRANSLATIONS = [
 
     # ---------- Autores ----------
     (">Autores</p>", ">Authors</p>", ">Auteurs</p>"),
-    ("Nicolas Villaume es un fotógrafo galardonado y explorador de National Geographic con más de 25 años de trayectoria a nivel mundial. Su trabajo, desde comunidades árticas afectadas por el cambio climático hasta culturas ancestrales en la Amazonía colombiana, explora las conexiones entre naturaleza y cultura y busca inspirar la acción.",
+    ("Nicolas Villaume es un fotógrafo galardonado y explorador de National Geographic con más de 25 años de trayectoria a nivel mundial. Su trabajo, desde comunidades árticas afectadas por el cambio climático hasta culturas ancestrales en la Amazonia colombiana, explora las conexiones entre naturaleza y cultura y busca inspirar la acción.",
      "Nicolas Villaume is an award-winning photographer and National Geographic Explorer with more than 25 years of experience worldwide. His work, from Arctic communities affected by climate change to ancestral cultures in the Colombian Amazon, explores the connections between nature and culture and seeks to inspire action.",
      "Nicolas Villaume est un photographe primé et explorateur National Geographic, fort de plus de 25 ans de carrière à travers le monde. Son travail, des communautés arctiques touchées par le changement climatique aux cultures ancestrales de l’Amazonie colombienne, explore les liens entre nature et culture et cherche à inspirer l’action."),
     ("Su obra ha sido presentada en más de 50 exposiciones internacionales, incluyendo el Smithsonian National Museum of the American Indian, la sede de las Naciones Unidas y el Museo Nacional de Dinamarca, así como en importantes eventos internacionales sobre el clima.",
