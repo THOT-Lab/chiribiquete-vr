@@ -41,7 +41,7 @@ TRANSLATIONS = [
     ("Tepuy de Chiribiquete emergiendo de la selva amazónica",
      "Chiribiquete tepui rising from the Amazon rainforest",
      "Tepuy de Chiribiquete émergeant de la forêt amazonienne"),
-    ("Templos sagrados de la Amazonía", "Sacred temples of the Amazon", "Temples sacrés d’Amazonie"),
+    ("Huellas ancestrales de la Amazonía", "Ancestral traces of the Amazon", "Empreintes ancestrales d’Amazonie"),
     ('<i aria-hidden="true"></i>Actualidad</span>', '<i aria-hidden="true"></i>News</span>', '<i aria-hidden="true"></i>Actualités</span>'),
     ("Alianza Francesa · Sede Chicó", "Alianza Francesa · Chicó", "Alliance Française · Chicó"),
     ("Inauguración 19.11.2026", "Opening 19.11.2026", "Inauguration 19.11.2026"),
