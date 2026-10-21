@@ -638,6 +638,16 @@ strong {
   color: var(--soft);
 }
 
+.event__text a {
+  color: var(--white);
+  border-bottom: 1px solid rgba(234, 248, 12, 0.5);
+  transition: color 0.2s;
+}
+
+.event__text a:hover {
+  color: var(--acid);
+}
+
 .btn {
   flex: none;
   min-width: 170px;
