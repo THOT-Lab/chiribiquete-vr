@@ -1183,7 +1183,9 @@ strong {
 }
 
 .footer__meta {
+  justify-self: center;
   color: var(--muted);
+  text-align: center;
   font-family: var(--mono);
   font-size: 11.5px;
   letter-spacing: 0.06em;
@@ -1333,5 +1335,10 @@ strong {
 
   .footer__inner {
     grid-template-columns: 1fr;
+  }
+
+  .footer__meta {
+    justify-self: start;
+    text-align: left;
   }
 }

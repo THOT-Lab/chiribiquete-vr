@@ -16,9 +16,9 @@ BASE_URL = "https://thot-lab.github.io/chiribiquete-vr/"
 # (es, en, fr) — de lo más largo a lo más corto: las frases antes que las palabras sueltas.
 TRANSLATIONS = [
     # ---------- <head> ----------
-    ("Chiribiquete VR — una experiencia inmersiva creada por NV Visuales y THOT. Exposición en la Alianza Francesa de Bogotá, sede Chicó, desde el 19 de noviembre de 2026.",
-     "Chiribiquete VR — an immersive experience created by NV Visuales and THOT. Exhibition at the Alianza Francesa de Bogotá, Chicó branch, from 19 November 2026.",
-     "Chiribiquete VR — une expérience immersive créée par NV Visuales et THOT. Exposition à l’Alliance Française de Bogotá, site de Chicó, à partir du 19 novembre 2026."),
+    ("Chiribiquete VR — viaje inmersivo al corazón de la Amazonia colombiana. Exposición en la Alianza Francesa de Bogotá, sede Chicó, desde el 19 de noviembre de 2026.",
+     "Chiribiquete VR — an immersive journey into the heart of the Colombian Amazon. Exhibition at the Alianza Francesa de Bogotá, Chicó branch, from 19 November 2026.",
+     "Chiribiquete VR — voyage immersif au cœur de l’Amazonie colombienne. Exposition à l’Alliance Française de Bogotá, site de Chicó, à partir du 19 novembre 2026."),
     ('content="es_CO"', 'content="en_GB"', 'content="fr_FR"'),
     ("assets/meta/og-image-es.jpg", "assets/meta/og-image-en.jpg", "assets/meta/og-image-fr.jpg"),
     ("Chiribiquete VR sobre un paisaje aéreo de la Amazonia colombiana",
@@ -51,9 +51,9 @@ TRANSLATIONS = [
     ("Prueba VR: navegación frente a los pictogramas",
      "VR test: navigating in front of the pictograms",
      "Test VR : navigation face aux pictogrammes"),
-    ("Una experiencia inmersiva creada por NV Visuales y THOT. A través de realidad virtual, imagen 360°, fotografía, video y museografía digital, el público se adentra en el universo sagrado de los tepuyes, la selva y las pinturas rupestres de Chiribiquete. El objetivo es compartir la belleza y el conocimiento de Chiribiquete sin poner en riesgo su equilibrio.",
-     "An immersive experience created by NV Visuales and THOT. Through virtual reality, 360° imagery, photography, video and digital museography, visitors enter the sacred world of the tepuis, the rainforest and the rock paintings of Chiribiquete. The aim is to share the beauty and knowledge of Chiribiquete without endangering its balance.",
-     "Une expérience immersive créée par NV Visuales et THOT. Grâce à la réalité virtuelle, à l’image à 360°, à la photographie, à la vidéo et à la muséographie numérique, le public pénètre dans l’univers sacré des tepuys, de la forêt et des peintures rupestres de Chiribiquete. L’objectif est de partager la beauté et la connaissance de Chiribiquete sans mettre en péril son équilibre."),
+    ("A través de realidad virtual, imagen 360°, fotografía, video y museografía digital, el público se adentra en el universo sagrado de los tepuyes, la selva y las pinturas rupestres de Chiribiquete. El objetivo es compartir la belleza y el conocimiento de Chiribiquete sin poner en riesgo su equilibrio.",
+     "Through virtual reality, 360° imagery, photography, video and digital museography, visitors enter the sacred world of the tepuis, the rainforest and the rock paintings of Chiribiquete. The aim is to share the beauty and knowledge of Chiribiquete without endangering its balance.",
+     "Grâce à la réalité virtuelle, à l’image à 360°, à la photographie, à la vidéo et à la muséographie numérique, le public pénètre dans l’univers sacré des tepuys, de la forêt et des peintures rupestres de Chiribiquete. L’objectif est de partager la beauté et la connaissance de Chiribiquete sans mettre en péril son équilibre."),
 
     # ---------- Actualidad ----------
     ('<i class="pulse" aria-hidden="true"></i>Actualidad</p>', '<i class="pulse" aria-hidden="true"></i>News</p>', '<i class="pulse" aria-hidden="true"></i>Actualités</p>'),
@@ -86,9 +86,9 @@ TRANSLATIONS = [
     ("El Museo Rietberg de Zúrich dedica una gran exposición al arte y la arqueología de la Amazonia, habitada desde hace al menos 13&nbsp;000 años, donde naturaleza y cultura no se conciben por separado.",
      "The Museum Rietberg in Zurich is devoting a major exhibition to the art and archaeology of the Amazon, a region inhabited for at least 13,000 years, where nature and culture are not seen as separate.",
      "Le Musée Rietberg de Zurich consacre une grande exposition à l’art et à l’archéologie de l’Amazonie, habitée depuis au moins 13&nbsp;000 ans, où nature et culture ne sont pas pensées séparément."),
-    ('En ella, THOT presenta una instalación digital monumental coproducida por Un film à la patte y el Museo Rietberg. La experiencia fue realizada con ',
-     'There, THOT presents a monumental digital installation co-produced by Un film à la patte and the Museum Rietberg. The experience was created with ',
-     'THOT y présente une installation numérique monumentale coproduite par Un film à la patte et le Musée Rietberg. L’expérience a été réalisée avec '),
+    ('En ella se presenta una instalación digital monumental coproducida por Un film à la patte y el Museo Rietberg. La experiencia fue realizada con ',
+     'It features a monumental digital installation co-produced by Un film à la patte and the Museum Rietberg. The experience was created with ',
+     'On y présente une installation numérique monumentale coproduite par Un film à la patte et le Musée Rietberg. L’expérience a été réalisée avec '),
     ('</a> y vio la luz gracias a la movilización de numerosos talentos, entre ellos Vladimir Bodnartchouk, ',
      '</a> and came to life thanks to many talented people, including Vladimir Bodnartchouk, ',
      '</a> et a vu le jour grâce à la mobilisation de nombreux talents, notamment Vladimir Bodnartchouk, '),
@@ -188,7 +188,6 @@ TRANSLATIONS = [
      'Avec Nicolas Villaume, il initie et coordonne des expériences immersives qui mêlent vulgarisation scientifique et sensibilisation à la préservation des écosystèmes.'),
 
     # ---------- Pie de página y diálogo ----------
-    ("Una realización de NV Visuales y THOT", "A production by NV Visuales and THOT", "Une réalisation de NV Visuales et THOT"),
     ("Fotografías © Nicolas Villaume", "Photographs © Nicolas Villaume", "Photographies © Nicolas Villaume"),
     ('aria-label="Imagen ampliada"', 'aria-label="Enlarged image"', 'aria-label="Image agrandie"'),
     ('aria-label="Cerrar"', 'aria-label="Close"', 'aria-label="Fermer"'),

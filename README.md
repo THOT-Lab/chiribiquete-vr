@@ -1,6 +1,6 @@
 # Chiribiquete VR
 
-Sitio de presentación de **Chiribiquete VR**, una experiencia inmersiva creada por NV Visuales y THOT.
+Sitio de presentación de **Chiribiquete VR**, una experiencia inmersiva que lleva al público al corazón de la Amazonia colombiana.
 
 Sitio publicado: https://thot-lab.github.io/chiribiquete-vr/ (ES) · [en.html](https://thot-lab.github.io/chiribiquete-vr/en.html) (EN) · [fr.html](https://thot-lab.github.io/chiribiquete-vr/fr.html) (FR)
 
